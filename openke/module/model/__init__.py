@@ -14,6 +14,9 @@ from .Analogy import Analogy
 from .SimplE import SimplE
 from .RotatE import RotatE
 
+from .QuatE import QuatE
+from .OctonionE import OctonionE
+
 __all__ = [
     'Model',
     'TransE',
@@ -25,5 +28,7 @@ __all__ = [
     'RESCAL',
     'Analogy',
     'SimplE',
-    'RotatE'
+    'RotatE',
+    'QuatE',
+    'OctonionE'
 ]
