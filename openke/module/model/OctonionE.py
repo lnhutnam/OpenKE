@@ -3,10 +3,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from .Model import Model
 
-import numpy as np
-from numpy.random import RandomState
-
-
 class OctonionE(Model):
     def __init__(self, ent_tot, rel_tot, embedding_dim=200):
         super().__init__(ent_tot, rel_tot)

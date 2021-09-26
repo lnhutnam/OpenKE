@@ -16,6 +16,8 @@ from .RotatE import RotatE
 
 from .QuatE import QuatE
 from .OctonionE import OctonionE
+from .QuatRE import QuatRE
+from .QuatDE import QuatDE
 
 __all__ = [
     'Model',
@@ -30,5 +32,7 @@ __all__ = [
     'SimplE',
     'RotatE',
     'QuatE',
-    'OctonionE'
+    'OctonionE',
+    'QuatRE',
+    'QuatDE'
 ]
