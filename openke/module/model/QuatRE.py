@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 from .Model import Model
 
+# Original code: https://github.com/daiquocnguyen/QuatRE
 
 class QuatRE(Model):
     def __init__(self, ent_tot, rel_tot, embed_dim=200):

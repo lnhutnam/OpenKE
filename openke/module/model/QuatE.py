@@ -6,6 +6,7 @@ from .Model import Model
 import numpy as np
 from numpy.random import RandomState
 
+# Orginal code: https://github.com/cheungdaven/QuatE
 
 class QuatE(Model):
     def __init__(self, ent_tot, rel_tot, embedding_dim=100, ent_dropout=0.2, rel_droupout=0.2):
