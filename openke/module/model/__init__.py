@@ -18,6 +18,7 @@ from .QuatE import QuatE
 from .OctonionE import OctonionE
 from .QuatRE import QuatRE
 from .QuatDE import QuatDE
+from .ConvKB import ConvKB
 
 __all__ = [
     'Model',
@@ -34,5 +35,6 @@ __all__ = [
     'QuatE',
     'OctonionE',
     'QuatRE',
-    'QuatDE'
+    'QuatDE',
+    'ConvKB'
 ]
